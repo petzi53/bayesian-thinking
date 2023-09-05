@@ -1,0 +1,38 @@
+# Introduction
+
+## File setup {.unnumbered}
+
+```{r}
+#| label: setup
+
+library(tidyverse)
+library(patchwork)
+```
+
+```{r}
+#| label: set-glossary
+
+library(glossary)
+glossary_path("glossary.yml")
+glossary_popup("hover")
+```
+
+```{r}
+#| label: glossary-style
+#| results: asis
+
+glossary_style(color = "#0066cc", 
+               text_decoration = "underline double 1px",
+               def_bg = "#333",
+               def_color = "white")
+```
+
+## Here starts the text
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
+
+```{r}
+1 + 1
+```

@@ -1,0 +1,6 @@
+Basis Function: |
+  B-Splines invent a series of entirely new, synthetic predictor variables. Each of these synthetic variables exists only to gradually turn a specific parameter on and off within a specific range of the real predictor variable. Each of the synthetic variables is called a basis function. (Chap.4)
+Bayesian Updating: |
+  A Bayesian model begins with one set of plausibilities assigned to each of these possibilities. These are the prior plausibilities. Then it updates them in light of the data, to produce the posterior plausibilities. This updating process is a kind of learning. (Chap.2)
+Bayes Theorem: |
+  This is the theorem that gives Bayesian data analysis its name. But the theorem itself is a trivial implication of probability theory. The mathematical definition of the posterior distribution arises from Bayes' Theorem. The key lesson is that the posterior is proportional to the product of the prior and the probability of the data. (Chap.2)

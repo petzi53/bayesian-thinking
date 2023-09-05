@@ -1,0 +1,14 @@
+{
+  "hash": "87b8766999260e438c4ef3550674e402",
+  "result": {
+    "markdown": "# Introduction\n\n## File setup {.unnumbered}\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\n#> ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n#> ✔ dplyr     1.1.2     ✔ readr     2.1.4\n#> ✔ forcats   1.0.0     ✔ stringr   1.5.0\n#> ✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n#> ✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n#> ✔ purrr     1.0.2     \n#> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n#> ✖ dplyr::filter() masks stats::filter()\n#> ✖ dplyr::lag()    masks stats::lag()\n#> ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors\n```\n:::\n\n```{.r .cell-code}\nlibrary(patchwork)\n```\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(glossary)\nglossary_path(\"glossary.yml\")\nglossary_popup(\"hover\")\n```\n:::\n\n\n```{.r .cell-code}\nglossary_style(color = \"#0066cc\", \n               text_decoration = \"underline double 1px\",\n               def_bg = \"#333\",\n               def_color = \"white\")\n```\n\n<style>\na.glossary {\n  color: #0066cc;\n  text-decoration: underline double 1px;\n  cursor: help;\n  position: relative;\n}\n\n/* only needed for popup = \"click\" */\n/* popup-definition */\na.glossary .def {\n  display: none;\n  position: absolute;\n  z-index: 1;\n  width: 200px;\n  bottom: 100%;\n  left: 50%;\n  margin-left: -100px;\n  background-color: #333;\n  color: white;\n  padding: 5px;\n  border-radius: 6px;\n}\n/* show on click */\na.glossary:active .def {\n  display: inline-block;\n}\n/* triangle arrow */\na.glossary:active .def::after {\n  content: ' ';\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  margin-left: -5px;\n  border-width: 5px;\n  border-style: solid;\n  border-color: #333 transparent transparent transparent;\n}\n</style>\n\n\n## Here starts the text\n\nThis is a book created from markdown and executable code.\n\nSee @knuth84 for additional discussion of literate programming.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n#> [1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
