@@ -27,12 +27,4 @@ glossary_style(color = "#0066cc",
                def_color = "white")
 ```
 
-## Here starts the text
-
-This is a book created from markdown and executable code.
-
-See @knuth84 for additional discussion of literate programming.
-
-```{r}
-1 + 1
-```
+## Here I will start with my personal notes
